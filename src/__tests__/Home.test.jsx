@@ -34,3 +34,16 @@ test("renders the <NavBar /> component", () => {
   );
   expect(document.querySelector(".navbar")).toBeInTheDocument();
 });
+// src/Home.jsx
+import React from "react";
+
+function Home() {
+  return (
+    <div>
+      <h1>Home Page</h1>
+      <p>Welcome to the movie app!</p>
+    </div>
+  );
+}
+
+export default Home;
